@@ -13,11 +13,14 @@ The IMDB dataset consists of 50,000 movie reviews labeled as positive (1) or neg
 Preprocessed so that each review is represented as a sequence of integers (word indices).
 
 🔹 Why Use GRU?
+
 GRU (Gated Recurrent Unit) is an advanced variant of RNN that is computationally efficient compared to LSTM (Long Short-Term Memory).
 
 Key Benefits of GRU:
  1.Solves vanishing gradient problem (remembers long-term dependencies).
+ 
  2.Faster training and inference than LSTM.
+ 
  3.Fewer parameters → requires less memory.
 
 GRU has two gates (instead of LSTM’s three):
